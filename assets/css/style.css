@@ -1,0 +1,44 @@
+body{
+
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+header {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+section {
+    clear: both;
+}
+
+header h1 {
+    position: relative;
+    outline: 3px solid red;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 12px;
+}
+.nav-bar {
+    position: relative;
+    list-style: none;
+    outline: 3px solid red;
+
+
+}
+
+.nav-bar li {
+
+    display: inline-block;
+    outline: 3px dotted blue
+    ;
+}
