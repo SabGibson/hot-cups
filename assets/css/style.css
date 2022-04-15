@@ -1,44 +1,53 @@
-body{
 
-    font-family: arial;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    margin:0;
     padding: 0;
-    border: 0;
-
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-header {
-    display: inline-block;
-}
-
-a {
+a{
     text-decoration: none;
 }
 
-
-
-section {
-    clear: both;
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0 auto;
+    background: red;
+    
 }
 
-header h1 {
-    position: relative;
-    outline: 3px solid red;
-    margin-top: 30px;
-    margin-left: 30px;
-    padding: 12px;
+.logo {
+    border: 1px solid white;
+    margin-left: 35px;
+    padding: 5px;
+    
 }
+
+
+
 .nav-bar {
-    position: relative;
     list-style: none;
-    outline: 3px solid red;
-
-
+    padding: 0;
+    margin-right: 40px;
 }
 
 .nav-bar li {
-
     display: inline-block;
-    outline: 3px dotted blue
-    ;
+    margin-left: 35px;
 }
+
+.nav-bar a {
+    color: white;
+    transition: all ease 0.3s;
+}
+
+.nav-bar a:hover {
+    color: teal;
+}
+
