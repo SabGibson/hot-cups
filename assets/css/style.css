@@ -12,15 +12,27 @@ a{
     text-decoration: none;
 }
 
+
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    
+    
+}
+
+
+.nav-container {
+
     height: 100px;
     margin: 0 auto;
     background: red;
     border-bottom: 2px solid white;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
 }
 
 .logo {
@@ -45,16 +57,21 @@ a{
 
 .nav-bar a {
     color: white;
-    transition: all ease 0.3s;
 }
 
 .nav-bar a:hover {
-    color: teal;
+    border-top: 2px solid #fff;
+}
+.welcome-banner{
+    width: 100%;
+    display:flex ;
+    justify-content: center;
 }
 
 .welcome-box {
 
-    width: 100%;
+
+    width: 90%;
     height: 600px;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url("../images/matcha-rock.jpg") ;
     background-size:cover;
@@ -70,7 +87,7 @@ a{
 .welcome-text {
     
 
-    width: 300px;
+    width: 500px;
     height: 300px;
     text-align: center;
     position: absolute;
@@ -86,7 +103,7 @@ a{
 }
 .button{
     display: inline-block;
-    height: ;
+
 }
 .btn {
     padding: 20px 50px;
@@ -119,6 +136,51 @@ a{
 
 .home-pg-btn:hover::before{
     transform: translate(-5px,5px);
+}
+
+/* .tea-history.ad {
+    background: teal;
+ 
+} */
+
+.ad.front-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frnt-pg-container {
+
+    width: 90%;
+    max-width: 4000px;
+    height: 600px;
+}
+
+.left {
+    width: 50%;
+    height: 500px;
+    border-radius:12px;
+}
+
+.left.tea {
+
+    background:url(../images/loose-tea.jpg) no-repeat center / cover;
+}
+
+.right {
+
+        width: 50%;
+        min-height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        border: 2px solid #fafafa;
+        border-radius: 12px;
+        color: #fff;
+        background-color: rgb(190, 190, 190);
+        margin-left: -150px;
+
 }
 
 
