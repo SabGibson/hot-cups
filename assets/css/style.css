@@ -19,6 +19,7 @@ a{
     height: 100px;
     margin: 0 auto;
     background: red;
+    border-bottom: 2px solid white;
     
 }
 
@@ -50,4 +51,74 @@ a{
 .nav-bar a:hover {
     color: teal;
 }
+
+.welcome-box {
+
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url("../images/matcha-rock.jpg") ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0% 35% ;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    
+
+}
+
+.welcome-text {
+    
+
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+}
+
+.welcome-text h1 {
+
+    text-transform: capitalize;
+    margin-bottom: 100px;
+
+}
+.button{
+    display: inline-block;
+    height: ;
+}
+.btn {
+    padding: 20px 50px;
+    position: relative;
+    font-size: 1.25rem;
+    margin: 32px;
+}
+
+.home-pg-btn {
+    color: #fff;
+}
+
+
+
+.home-pg-btn::after, .home-pg-btn::before {
+
+    border: 2px solid #fff;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 12;
+    left: 0;
+    bottom: 0;
+}
+
+.home-pg-btn:hover::after{
+    transform: translate(5px,-5px);
+}
+
+.home-pg-btn:hover::before{
+    transform: translate(-5px,5px);
+}
+
 
