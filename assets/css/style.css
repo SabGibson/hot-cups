@@ -15,20 +15,21 @@ a{
 hr{
 
     visibility: hidden;
-    margin-bottom: 25px;
+    margin:25px 0px;
+}
+
+h1 {
+
+    font-family:'Roboto',sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
 }
 
 h2{
-    margin-bottom: 15px;
-}
-
-
-.container{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    width: 90%;
+    font-size: 1.7rem;
+    margin:25px 0px;
+    text-align: center;
 }
 
 
@@ -76,11 +77,8 @@ h2{
     border-top: 2px solid #fff;
 }
 
-.welcome-banner{
-    width: 100%;
-    display:flex ;
-    justify-content: center;
-}
+
+
 
 .welcome-box {
 
@@ -98,9 +96,34 @@ h2{
 
 }
 
+.flex-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    /* flex-wrap: wrap; */
+    
+}
+
+.flex-container.col{
+    
+    flex-direction: column;
+}
+
+.wrapper{
+
+    width: 90%;
+    height: minmax(300px,auto);
+    margin: 0 auto;
+
+}
+
+
+
 .welcome-text {
     
-    width: 500px;
+    width: maxmin(400px,500px);
     height: 300px;
     text-align: center;
     position: absolute;
@@ -185,13 +208,6 @@ h2{
 }
 
 
-.ad.front-page{
-    text-align: center;
-    display: block;
-    align-items: center;
-    justify-content: center;
-}
-
 .frnt-pg-container {
 
     width: 90%;
@@ -201,35 +217,60 @@ h2{
 
 .did-you-know{
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     font-weight: 100;
 }
 
-.underlay-bg {
+
+.bg-container {
 
     max-width: 800px;
     width: 50%;
     min-width: 280px;
     height: 300px;
-    border-radius:12px;
+    border-radius:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #52B788;
 }
 
-.underlay-bg.tea img{
+.bg-container.brew {
+
+    width: minmax(300px,600px);
+    height: minmax(300px,600px);
+    
+}
+
+.bg-container.tea-type img{
 
     object-fit: cover;
     width: 100%;
     height: 100%;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
-.underlay-bg.tea {
+.bg-container.brew img{
 
-background:url(../images/loose-tea.jpg) no-repeat center / cover; 
+    object-fit:scale-down;
+    width: 120%;
+    height: 120%;
+    border-radius: 8px;
+}
 
+#brew-q2-img {
+
+    width: 200%;
+}
+
+#brew-q4-img{
+    width: 150% ;
 }
 
 
-.overlay-text {
+
+
+.text-container {
 
         width: 50%;
         max-width: 800px;
@@ -239,50 +280,43 @@ background:url(../images/loose-tea.jpg) no-repeat center / cover;
         align-items: center;
         justify-content: center;
         padding: 30px;
-        border: 2px solid #fafafa;
-        border-radius: 12px;
+        border-radius: 8px;
         color: #fff;
-        background-color: rgb(190, 190, 190);
+        background-color: #52B788;
         margin-left: -15%;
 
 }
+.text-container.left {
 
-.overlay-text.left {
-
-    max-width: 800px;
-    width: 50%;
-    min-height: 250px;
-    min-width: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-    border: 2px solid #fafafa;
-    border-radius: 12px;
-    color: #fff;
-    background-color: rgb(190, 190, 190);
     margin-left: -85%;
 
 }
 
-.overlay-text.green{
+.text-container.brew{
+    width: 30%;
+}
+
+.text-container.green{
     border: 2px solid #a39d3e;
     background: #a39d3e;
 
 }
-.overlay-text.red{
+.text-container.red{
     border: 2px solid #9e5a00;
     background: #57290e;
 
 }
 
-.overlay-text.black{
+.text-container.black{
     border: 2px solid #5e5553;
     background: #3b3839;
 
 }
 
+.under-text{
 
+    margin-top: 20px;
+}
 
 .grid{
     width: 90%;
@@ -297,23 +331,26 @@ background:url(../images/loose-tea.jpg) no-repeat center / cover;
 
 
 .tea-promo h2{
+
     font-family: 'Roboto', sans-serif;
     font-size: 1.7rem;
     margin-bottom: 50px;
     
 }
 
-.coffee-history h2{
+#tea-brew-intro{
     font-size: 1.7rem;
     text-align: center;
     padding: 30px;
     margin: 0 auto;
     width: 90%;
     color:#fff;
-    background: #95D5B2;
+
+    background: #52B788;
 }
 
 .wrapper{
     width: 100%;
 
 }
+
