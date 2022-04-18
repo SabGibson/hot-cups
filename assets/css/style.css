@@ -256,6 +256,7 @@ ul {
     border-radius: 8px;
 }
 
+
 .bg-container.brew img{
 
     object-fit:contain;
@@ -339,7 +340,21 @@ ul {
 .grid.alt-grid{
 
     background: #D8F3DC ;
+    
 }
+
+.grid.sixty-fourty-grid {
+
+    grid-template-columns: 60% 40%;
+
+}
+
+.grid.fourty-sixty-grid {
+
+    grid-template-columns: 40% 60%;
+
+}
+
 
 .grid.alt-grid.foot-grid{
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -395,3 +410,4 @@ ul {
     color:#fff
 
 }
+
