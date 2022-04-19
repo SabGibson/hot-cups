@@ -101,6 +101,23 @@ ul {
 
 }
 
+.new-welcome-box.tea-types {
+
+
+    width: 90%;
+    height: 600px;
+    clear: both;
+    background: linear-gradient(rgba(235,213,176,0.6),rgba(110, 108, 101, 0.3)),url("../images/tea-farm-png.png") ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    
+
+}
+
 .flex-container {
 
     display: flex;
@@ -124,7 +141,7 @@ ul {
     justify-content: start;
 }
 
-.wrapper{
+.wrapper-90{
 
     width: 90%;
     height: minmax(300px,auto);
@@ -222,8 +239,9 @@ ul {
 
 .did-you-know{
     font-family: 'Roboto', sans-serif;
-    /* font-size: 1.5rem; */
+    font-size: 1.5rem;
     font-weight: 100;
+    text-align: center;
 }
 
 
@@ -363,7 +381,7 @@ ul {
     
 }
 
-.grid.sixty-forty-grid {
+.grid.sixty-fourty-grid {
 
     grid-template-columns: 60% 40%;
 
@@ -429,5 +447,42 @@ ul {
     padding: 0;
     color:#fff
 
+}
+
+.tea-history-sectimg {
+    object-fit: contain;
+}
+
+.photos-collage {
+     
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+    
+ }
+
+.photos-collage > img {
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+
+.display-img{
+
+    width:minmax(300px,500px);
+    /* width: 500px; */
+    height:300px;
+    object-fit: cover;
+    border:1px solid #52B788;
+    border-radius: 8px;
+
+}
+
+.show-img{
+
+    width:minmax(300px,500px);
+    height:300px;
+    object-fit: cover;
 }
 
