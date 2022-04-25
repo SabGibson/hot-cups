@@ -113,22 +113,6 @@ nav >.nav-bar a:hover {
 
 }
 
-.new-welcome-box.tea-types {
-
-
-    width: 90%;
-    height: 600px;
-    clear: both;
-    background: linear-gradient(rgba(235,213,176,0.6),rgba(110, 108, 101, 0.3)),url("../images/tea-farm-png.png") ;
-    background-size:cover;
-    background-repeat: no-repeat;
-    padding: 30px;
-    color: white;
-    overflow: hidden;
-    position: relative;
-    
-
-}
 
 .flex-container {
 
@@ -165,7 +149,7 @@ nav >.nav-bar a:hover {
 
 .welcome-text {
     
-    width: maxmin(400px,500px);
+    width: minmax(400px,500px);
     height: 300px;
     text-align: center;
     position: absolute;

@@ -15,7 +15,11 @@ body{
 }
 
 h2{
+
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.7rem;
     text-align: center;
+    margin: 24px
 }
 
 a{ 
@@ -30,6 +34,16 @@ a{
     margin:0 auto;
     border-bottom: 2px solid #fff;
     z-index: 3;
+}
+
+.nav.footer{
+    position: relative;
+    bottom: 0;
+}
+
+.nav-list-item i{
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 
@@ -139,11 +153,12 @@ a{
 .welcome-text{
 
     margin-right: 8%;
-    width: maxmin(400px,500px);
+    width: minmax(400px,500px);
     font-size:1.1rem;
 }
 
 .welcome-text h2 , .welcome-text a {
+    
     color: #fff;
 }
 
@@ -153,7 +168,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     
 }
 
@@ -164,7 +179,7 @@ a{
 
 .button{
 
-    margin-top: 55px;
+    margin-top: 25px;
     display: inline-block;
 
 }
@@ -234,11 +249,62 @@ a{
     transform: translate(5px,5px);
 }
 
-/* styling classes*/
 
 .default-bg{
+
     background: #52B788;
 }
+
+.grid{
+
+    width: 100%;
+    padding: 25px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(300px,auto);
+    justify-items: center;
+    align-items: center;
+}
+
+.grid.alt-grid{
+
+    background: #D8F3DC ;
+    
+}
+
+.grid.sixty-fourty-grid {
+
+    grid-template-columns: 60% 40%;
+
+}
+
+.grid.fourty-sixty-grid {
+
+    grid-template-columns: 40% 60%;
+
+}
+
+.grid.three-grid{
+
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+
+.grid.alt-grid.foot-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #52B788;
+    grid-row: 50px;
+    color: #fff;
+    justify-items: start;
+    align-items:flex-start;
+}
+
+.grid.smaller-spacing{
+    gap: 0em;
+    padding:5px;
+}   
 
 .did-you-know{
     font-family: 'Roboto', sans-serif;
@@ -251,6 +317,7 @@ a{
 .bg-container {
 
     width: 50%;
+    min-width: 300px;
     height: 300px;
     border-radius:8px;
     display: flex;
@@ -269,10 +336,11 @@ a{
 
 .bg-container.tea-uses {
 
-    width: 600px;
-    height: 300px;
-    background: none;
-    border-radius: 8px;
+    display: flex;
+    width: 450px;
+    height: 400px;
+    background: #52B788;
+    border-radius: 15%;
     
 }
 
@@ -296,10 +364,10 @@ a{
 
 .bg-container.tea-uses img{
 
-    object-fit:cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 15%;
 }
 
 
@@ -318,6 +386,7 @@ a{
 .text-container {
 
     width:50%;
+    min-width: 300px;
     height: 300px;
     display: flex;
     align-items: center;
@@ -328,6 +397,18 @@ a{
     background-color: #52B788;
     margin-left: -15%;
 
+}
+.text-container h2{
+
+    font-family: 'Roboto',sans-serif;
+    color: #fff;
+    margin: 6px;
+}
+.text-container p{
+    
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Indie Flower',cursive;
 }
 .text-container.left {
 
@@ -366,50 +447,7 @@ a{
     margin-top: 55px;
 }
 
-.grid{
-    width: 100%;
-    padding: 25px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-    grid-auto-rows: minmax(300px,auto);
-    justify-items: center;
-    align-items: center;
-}
 
-.grid.alt-grid{
-
-    background: #D8F3DC ;
-    
-}
-
-.grid.sixty-fourty-grid {
-
-    grid-template-columns: 60% 40%;
-
-}
-
-.grid.fourty-sixty-grid {
-
-    grid-template-columns: 40% 60%;
-
-}
-
-
-.grid.alt-grid.foot-grid{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: #52B788;
-    grid-row: 50px;
-    color: #fff;
-    justify-items: start;
-    align-items:flex-start;
-}
-
-.grid.smaller-spacing{
-    gap: 0em;
-    padding:5px
-}
 
 .tea-promo h2{
 
@@ -421,11 +459,10 @@ a{
 
 .clever-banner{
 
-    font-size: 1.7rem;
     text-align: center;
     padding: 30px;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     color:#fff;
     background: #52B788;
 }
@@ -439,22 +476,16 @@ a{
     width: 100%;
 
 }
-.nav-bar.foot {
 
-    height: minmax(100px,auto);
-}
 
-.nav-bar.foot i {
+.footer-nav{
 
-    font-size: 30px;
-    height: minmax();
-} 
-
-.nav-container.foot{
-    margin: 0;
-    padding: 0;
-    color:#fff;
-
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap:2rem;
+    margin:2rem;
+    flex-wrap: wrap;
 }
 
 .tea-history-sectimg {
