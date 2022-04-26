@@ -31,15 +31,12 @@ a{
     position: fixed;
     top:0;
     width: 100vw;
+    min-height: 150px;
     margin:0 auto;
     border-bottom: 2px solid #fff;
     z-index: 3;
 }
 
-.nav.footer{
-    position: relative;
-    bottom: 0;
-}
 
 .nav-list-item i{
     color: #fff;
@@ -56,6 +53,9 @@ a{
     margin: 2rem;
     flex-wrap: wrap;
 }
+
+
+
 
 .logo{
 
@@ -80,6 +80,7 @@ a{
 }
 
 
+
 .nav-list-item:hover ul {
 
     opacity: 1;
@@ -92,6 +93,8 @@ a{
     color: white;
     
 }
+
+
 .nav-sub-menu{
 
     
@@ -129,9 +132,19 @@ a{
 
 .nav-sub-menu li:hover a, .nav-sub-menu li:focus a {
 
-    color: orange;
+    color: #D9ED92;
     background-color: #74C69D;
 
+}
+
+.nav-bar a:hover, .nav-bar li:hover{
+
+    color: #D9ED92;
+}
+
+.active, .nav-list-item.active a{
+
+    color: #D9ED92;
 }
 
 
@@ -478,15 +491,30 @@ a{
 }
 
 
-.footer-nav{
+.footer {
 
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    gap:2rem;
-    margin:2rem;
-    flex-wrap: wrap;
+    padding: 24px;
 }
+
+.footer-ul{
+    
+    list-style: none;
+    display: flex;
+    
+}
+
+.footer-ul.social-media{
+    gap: 2rem;
+    margin:2rem;
+    justify-content: flex-end;
+}
+
+.footer-ul.social-media i{
+
+    color: #fff;
+    font-size: 1.1rem;
+}
+
 
 .tea-history-sectimg {
     object-fit: contain;
@@ -539,5 +567,9 @@ a{
 .no-border{
     border: none;
 }   
+
+.first-section-under-header{
+    margin-top:150px
+}
 
 
