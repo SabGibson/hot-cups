@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 
-*{
-    margin:0;
+
+body{
+    margin:0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans',sans-serif;
     color: black;
-}
-
-body{
+    margin: 0 auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
 }
 
 h2{
@@ -26,12 +26,23 @@ a{
     text-decoration: none;
 }
 
-.nav{
+header {
 
-    position: fixed;
     top:0;
-    width: 100vw;
-    min-height: 150px;
+    position:fixed;
+    width: 100%;
+    max-width: inherit;
+    z-index: 3;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    height: 100px;
+
+}
+
+ .nav{
+    width: 100%;
+    height: 100%;
     margin:0 auto;
     border-bottom: 2px solid #fff;
     z-index: 3;
@@ -108,7 +119,7 @@ a{
     flex-direction: column;
     gap:0.5;
     opacity: 0;
-    /* border: 3px solid #fff; */
+    border-bottom: 3px solid #fff;
     transition: opacity 200ms ease-in-out;
 
 }
@@ -145,7 +156,7 @@ a{
 .active, .nav-list-item.active a{
 
     color: #D9ED92;
-}
+} 
 
 
 .welcome-box {
@@ -154,12 +165,14 @@ a{
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    height: 600px;
+    max-width: inherit;
+    height: 550px;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url("../images/matcha-rock.jpg") ;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 0% 35% ;
     overflow: hidden;
+    margin: 0 auto;
     
 }
 
@@ -183,6 +196,10 @@ a{
     flex-grow: 1;
     flex-wrap: wrap;
     
+}
+.flex-container.pad{
+    
+   padding-bottom: 42px;
 }
 
 .flex-container.col{
@@ -271,7 +288,7 @@ a{
 .grid{
 
     width: 100%;
-    padding: 25px;
+    max-width: inherit;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -404,7 +421,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 12px;
     border-radius: 8px;
     color: #fff;
     background-color: #52B788;
@@ -421,7 +438,6 @@ a{
     
     color: #fff;
     font-size: 1.1rem;
-    font-family: 'Indie Flower',cursive;
 }
 .text-container.left {
 
@@ -471,10 +487,12 @@ a{
 }
 
 .clever-banner{
-
+    
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding: 30px;
     margin: 0 auto;
+    margin-top: 25px;
     width: 100%;
     color:#fff;
     background: #52B788;
@@ -573,3 +591,17 @@ a{
 }
 
 
+@media screen and (min-width:1024px) {
+    
+    body { 
+        max-width: 1444px;
+    }
+}
+
+@media  screen and (min-width:768px) and (max-width:1023px) {
+    
+}
+
+@media screen and (max-width:767px) {
+    
+}
