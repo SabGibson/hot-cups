@@ -318,7 +318,7 @@ header {
 
 .grid.three-grid{
 
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 
@@ -589,6 +589,31 @@ header {
 .first-section-under-header{
     margin-top:150px
 }
+
+.promo-img-border{
+    width: 100%;
+    min-width: 450px;
+    height: 300px;
+    padding: 1rem;
+    border: 3px solid #000;
+    margin: 25px;
+}
+.promo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+
+}
+
+.flex-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-grid > *{
+    flex: 1 1 10em;
+}
+
 
 
 @media screen and (min-width:1024px) {
