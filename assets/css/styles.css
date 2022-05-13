@@ -22,6 +22,14 @@ h2{
     margin: 24px
 }
 
+h1{
+
+    font-family: 'Noto-sans',sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+}
+
 a{ 
     text-decoration: none;
 }
@@ -78,7 +86,6 @@ header {
 .nav-list-item{
 
     list-style: none;
-    font-weight: bold;
     width: 100px;
     position: relative;
     padding: 1.5rem 1rem;
@@ -152,8 +159,7 @@ header {
 
     color: #D9ED92;
 }
-
-.active, .nav-list-item.active a{
+.active, .active> a{
 
     color: #D9ED92;
 } 
@@ -207,6 +213,10 @@ header {
     flex-direction: column;
 }
 
+.flex-container.row{
+    
+    flex-direction: column;
+}
 .button{
 
     margin-top: 25px;
@@ -321,7 +331,17 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.grid.thirty-seventy {
 
+    grid-template-columns: 30% 70%;
+
+}
+
+.grid.seventy-thirty {
+
+    grid-template-columns: 70% 30%;
+
+}
 .grid.alt-grid.foot-grid{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #52B788;
@@ -595,7 +615,8 @@ header {
     min-width: 450px;
     height: 300px;
     padding: 1rem;
-    border: 3px solid #000;
+    border: 3px solid #52B788;
+    border-radius: 12px;
     margin: 25px;
 }
 .promo-img {
@@ -605,7 +626,29 @@ header {
 
 }
 
+/* .art-img-border{
+    width: 100%;
+    min-width: 100px;
+    height: 300px;
+    padding: 1rem;
+    border: 3px solid #000;
+    margin: 25px;
+} */
+.art-img {
+    width: 100%;
+    min-width: 450px;
+    height: 300px;
+    /* width: minmax(200px,300px);
+    height: minmax(200px,300px); */
+    border: 3px solid #fff;
+    border-radius: 12px;
+    object-fit: cover;
+    
+
+}
+
 .flex-grid{
+
     display: flex;
     flex-wrap: wrap;
 }
@@ -619,7 +662,7 @@ header {
 @media screen and (min-width:1024px) {
     
     body { 
-        max-width: 1444px;
+        max-width: 1220px;
     }
 }
 
