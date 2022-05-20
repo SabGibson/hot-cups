@@ -738,13 +738,14 @@ header {
 
 .timeline ul{
 
-    padding: 0px;
+    padding: 020px;
     list-style: none;
     
 
 }
 
 .timeline ul li {
+    text-align: start;
     height: auto;
     background-color: #74C69D;
     color: #fff;
@@ -758,6 +759,7 @@ header {
 }
 
 .timeline ul li> h1{
+    text-align: start;
     margin: 0px;
     font-size: 1.4rem;
 
@@ -781,6 +783,7 @@ header {
 @media screen and (min-width:767px) {
 
     .timeline ul li{
+        
         width: 50%;
         margin-bottom: 50px;
         position: relative;
@@ -794,19 +797,56 @@ header {
         position:absolute;
         left: 50%;
         transform: translateX(-50%);
+        z-index: -1;
 
     }
     .timeline ul li:nth-child(odd){
-        transform: translateX(-50px);
+        transform: translateX(-80px);
         float: left;
         clear: right;
     }
+    
 
     .timeline ul li:nth-child(even){
-        transform: translateX(50px);
+        transform: translateX(80px);
         float: right;
         clear: left;
     }
+
+    .timeline ul li::after{
+        content: "";
+        background-color: #fff;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border: 2px solid #52B788;
+        border-radius: 50%;
+        top: 0;
+        
+
+
+    }
+
+    .timeline ul li:hover::after{
+        background-color: #52B788;
+        
+
+
+    }
+
+    .timeline ul li:nth-child(odd)::after{
+        transform: translate(50%,-50%);
+        right: -40px;
+
+    }
+
+    .timeline ul li:nth-child(even)::after{
+        transform: translate(-50%,-50%);
+        left: -40px;
+
+    }
+
+
 }
 @media screen and (max-width:767px) {
     
