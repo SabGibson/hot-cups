@@ -289,6 +289,32 @@ header {
     transform: translate(5px,5px);
 }
 
+.btn.rounded{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    color: #000;
+    border: 3px solid black;
+    background: #52B788;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 12px;
+} 
+
+.btn.rounded:hover{
+
+    color: #52B788;
+    background-color: #000;
+    border: 3px solid #52B788;
+
+}
+
+.btn.rounded h2{
+    font-size: 1.25rem;
+    margin: 0px;
+}
 
 .default-bg{
 
@@ -619,15 +645,17 @@ header {
     width: 100%;
     min-width: 450px;
     height: 300px;
-    padding: 1rem;
+    padding: 8px;
     border: 3px solid #52B788;
     border-radius: 12px;
     margin: 25px;
 }
 .promo-img {
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
     object-fit: cover; 
+    border-radius: 12px;
 
 }
 
@@ -678,11 +706,12 @@ header {
     
     display: block;
     width: 100%;
-    height: 80%;
+    height: 100%;
     object-fit: cover;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-radius: 12px;
+  
 }
+
 
 .info-card:hover{
     transform: rotateY(180deg);
@@ -737,6 +766,12 @@ header {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    border-radius: 12px;
+}
+
+.content-front.exp{
+    background-color: #74C69D;
+
 }
 
 .content-back{
@@ -746,6 +781,7 @@ header {
     height: 100%;
     backface-visibility: hidden;
     transform: rotateY(180deg);
+    border-radius: 12px;
 }
 
 .recipe-card:hover{
@@ -847,7 +883,7 @@ header {
     font-weight: 100;
     font-size: 1.5rem;
 }
-.pg-banner.w{
+.w{
 
     color: #fff;
 }
