@@ -9,46 +9,53 @@
     <link rel="stylesheet" href="assets/css/styles.css"/>
     <title>Hotcups|History</title>
 </head>
-<body>
-    <header>
-            <nav class="nav default-bg">
-                <ul class="nav-bar">
-                    <li class="logo">
-                        <div>
-                            <a href="index.html"><img src="assets/images/outline_coffee_white_24dp.png" alt="happ cups logo"/></a>
-                        </div>
+<header class="default-bg">
+    <nav class="nav default-bg flex-container">
+        <div class="logo">
+            <a href="index.html"><img src="assets/images/outline_coffee_white_24dp.png" alt="happ cups logo"/></a>
+        </div>
+        <div class="nav-list-item-other">
+            <label for="toggle-menu">
+                <div class="toggle-menu">
+                    <span class="toggle-bar"></span>
+                    <span class="toggle-bar"></span>
+                    <span class="toggle-bar"></span>
+                </div>
+            </label>
+        </div>
+        <input type="checkbox" name="toggle-menu" id="toggle-menu">
+        <ul class="nav-bar">
+            <li class="nav-list-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-list-item active">
+                Explore
+                <ul class="nav-sub-menu">
+                    <li>
+                        <a href="history.html">History</a>
                     </li>
-                    <li class="nav-list-item ">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="nav-list-item active">
-                        Explore
-                        <ul class="nav-sub-menu">
-                            <li>
-                                <a href="history.html">History</a>
-                            </li>
-                            <li>
-                                <a href="tea-blends.html">Blends & Variants</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-list-item">
-                        Brewing
-                        <ul class="nav-sub-menu">
-                            <li>
-                                <a href="hot-recipes.html">Recipes</a>
-                            </li>
-                            <li>
-                                <a href="ceremonies.html">Cultural Recipies</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-list-item">
-                        <a href="sign-up.html">Sign-Up</a>
+                    <li>
+                        <a href="tea-blends.html">Variants & Blends</a>
                     </li>
                 </ul>
-            </nav>  
-    </header>
+            </li>
+            <li class="nav-list-item">
+                Brewing
+                <ul class="nav-sub-menu">
+                    <li>
+                        <a href="recipes.html">Hot Recipes</a>
+                    </li>
+                    <li>
+                        <a href="culture.html">Cultural Recipes</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-list-item">
+                <a href="sign-up.html">Sign-Up</a>
+            </li>
+        </ul>
+    </nav>  
+</header>
     <section>
         <div class="flex-container col pg-banner first-section-under-header ">
             <div class="pg-label">
