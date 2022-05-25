@@ -11,13 +11,21 @@
 </head>
 <body>
     <header class="default-bg">
-            <nav class="nav default-bg flex-grid">
-                <ul class="nav-bar">
-                    <li class="logo">
-                        <div>
-                            <a href="index.html"><img src="assets/images/outline_coffee_white_24dp.png" alt="happ cups logo"/></a>
+            <nav class="nav default-bg flex-container">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/images/outline_coffee_white_24dp.png" alt="happ cups logo"/></a>
+                </div>
+                <div class="nav-list-item-other">
+                    <label for="toggle-menu">
+                        <div class="toggle-menu">
+                            <span class="toggle-bar"></span>
+                            <span class="toggle-bar"></span>
+                            <span class="toggle-bar"></span>
                         </div>
-                    </li>
+                    </label>
+                </div>
+                <input type="checkbox" name="toggle-menu" id="toggle-menu">
+                <ul class="nav-bar">
                     <li class="nav-list-item active">
                         <a href="index.html">Home</a>
                     </li>
@@ -45,13 +53,6 @@
                     </li>
                     <li class="nav-list-item">
                         <a href="sign-up.html">Sign-Up</a>
-                    </li>
-                    <li class="nav-list-item-other">
-                        <a href="#" class="toggle-menu">
-                            <span class="toggle-bar"></span>
-                            <span class="toggle-bar"></span>
-                            <span class="toggle-bar"></span>
-                        </a>
                     </li>
                 </ul>
             </nav>  
