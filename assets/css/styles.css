@@ -1234,6 +1234,14 @@ iframe {
         padding-inline-start:0px;
     }
 
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .text-container{
+        margin: 0px auto;
+    }
+
 
     
     
