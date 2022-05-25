@@ -222,7 +222,7 @@ iframe {
     width: 100%;
     max-width: inherit;
     height: 550px;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url("../images/matcha-rock.jpg") ;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url("../images/matcha-rock.webp") ;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 0% 35% ;
