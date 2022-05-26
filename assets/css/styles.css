@@ -15,7 +15,7 @@ html,body
 
 h2{
 
-    font-family: 'Noto-sans',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-size: 2rem;
     text-align: center;
     margin: 18px
@@ -27,6 +27,7 @@ h1{
     font-size: 3rem;
     font-weight: 100;
     text-align: center;
+    margin-bottom: 12px;
 }
 
 a{ 
@@ -547,11 +548,7 @@ header li {
     color: #fff;
     font-size: 1.1rem;
 }
-.text-container.left {
 
-    margin-left: -85%;
-
-}
 
 .text-container.brew{
     width: 30%;
@@ -760,6 +757,11 @@ header li {
 
 }
 
+.promo-title{
+
+    font-size: 1.4rem;
+    margin-bottom: 24px;
+}
 
 .art-img {
     width: 100%;
@@ -782,26 +784,33 @@ header li {
     flex: 1 1 10em;
 }
 
+.flex-grid.info > *{
+    flex: 1 1 20em;
+}
 
 .card-holder{
     position: relative;
     display: flex;
     width: 100%;
+    min-width: 290px;
     background: none;
     min-height: 450px;
+    padding: 20px;
     
 }
 .info-card{
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     min-width: 300px;
     border-radius: 12px;
     transition: all 0.5s ease ;
     transform-style: preserve-3d;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
-    margin: 24px;
+    margin:25px;
 }
 .info-card-img{
     
@@ -870,7 +879,13 @@ header li {
     border-radius: 12px;
 }
 
+
 .content-front.exp{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #74C69D;
 
 }
@@ -883,6 +898,16 @@ header li {
     backface-visibility: hidden;
     transform: rotateY(180deg);
     border-radius: 12px;
+}
+
+.content-back.exp{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .recipe-card:hover{
@@ -950,12 +975,13 @@ header li {
     
     text-align: start;
     margin: 0px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 
 }
 
 .timeline ul li> p{
     margin: 0px;
+    font-size: 1.2rem;
     
 
 }
@@ -965,7 +991,7 @@ header li {
     width: 100%;
     height: 310px;
     border: 3px solid #fff;
-    margin: 12px 0px;
+    margin: 20px 0px;
     border-radius: 3px;
 }
 
@@ -982,7 +1008,7 @@ header li {
 .tl-date{
 
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 .w{
 
@@ -1081,8 +1107,6 @@ header li {
     padding: 3px;
 }
 
-
-
 @media screen and (min-width:1024px) {
     
     body { 
@@ -1090,12 +1114,14 @@ header li {
     }
 }
 
-@media  screen and (min-width:768px) and (max-width:1023px) {
+
+@media screen and (min-width:769px) {
+
     
-}
+    .timeline{
 
-@media screen and (min-width:767px) {
-
+        padding: 60px;
+    }
     .timeline ul li{
         
         width: 50%;
@@ -1172,6 +1198,9 @@ header li {
     }
 
 
+    .logo{
+        margin: 0px auto;
+    }
     .nav{
         inset: 0 0 0 30%;
     }
@@ -1199,14 +1228,14 @@ header li {
 
     
         position: absolute;
-        left: -20.5rem;
+        left: -20rem;
         top: 0;
         background: rgba(0, 0, 0, 1);
         border-bottom: none;
         width: 16rem;
         padding:1rem;
         display: flex;
-        flex-direction: col;
+        flex-direction: column;
         opacity: 0.6;
         transition: opacity 200ms ease-in-out;
         z-index: 11;
@@ -1266,4 +1295,15 @@ header li {
     
     }
 
+    .info-card{
+        margin: 0px
+    }
+
+    .card-holder{
+        padding: 10px;
+    }
+
+    .promo-img-border{
+        margin: 10px 0px;
+    }
 }
