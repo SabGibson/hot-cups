@@ -120,25 +120,6 @@ header li {
 
 }
 
-h1{
-
-    font-size: 4rem;
-}
-
-h2{
-
-    font-size: 2.25rem;
-}
-
-h3{
-
-    font-size: 1.375rem;
-}
-
-P{
-
-    font-size: 1rem;
-}
 
 
 
@@ -1264,7 +1245,28 @@ P{
 
 @media screen and (min-width:769px) {
 
+    h1{
+
+        font-size: 4rem;
+    }
     
+    h2{
+    
+        font-size: 2.25rem;
+    }
+    
+    h3{
+    
+        font-size: 1.375rem;
+    }
+    
+    P{
+    
+        font-size: 1rem;
+    }
+    
+
+
     .timeline{
 
         padding: 60px;
@@ -1339,6 +1341,26 @@ P{
 
 }
 @media screen and (max-width:769px) {
+
+    h1{
+
+        font-size: 2.813rem;
+    }
+    
+    h2{
+    
+        font-size: 1.75rem;
+    }
+    
+    h3{
+    
+        font-size: 1rem;
+    }
+    
+    P{
+    
+        font-size: 0.875rem;
+    }
 
     body{
         overflow-x: hidden;
@@ -1445,6 +1467,29 @@ P{
 
     
     
+}
+
+@media screen and (max-width:475px){
+
+    h1{
+
+        font-size: 2.25rem;
+    }
+    
+    h2{
+    
+        font-size: 1.5rem;
+    }
+    
+    h3{
+    
+        font-size: 0.875rem;
+    }
+    
+    P{
+    
+        font-size: 0.75rem;
+    }
 }
 
 @media screen and (max-width:510px) {
