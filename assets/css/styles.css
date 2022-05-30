@@ -322,6 +322,7 @@ header li {
 
 .welcome-text h2{
 
+    min-width: 300px;
     margin-bottom: 30px;
 }
 
@@ -915,6 +916,7 @@ header li {
 
 .recipe-card{
 
+    text-align: start;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -1498,6 +1500,14 @@ header li {
 
     .promo-img-border{
         margin: 10px 0px;
+    }
+
+    @media screen and (max-width:886px) {
+        
+        .welcome-text{
+            margin: 0px auto;
+        }
+
     }
 
 }
