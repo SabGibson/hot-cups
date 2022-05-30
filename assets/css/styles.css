@@ -733,7 +733,9 @@ header li {
     padding: 20px;
     margin: 40px 0px;
 }
+
 #sign-up-form{
+
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 1rem;
@@ -743,9 +745,14 @@ header li {
     margin: 40px;
     border: 2px solid var(--tertiary);
     border-radius: 12px;
+    text-align: start;
+    box-shadow: var(--shadow);
     
 }
+#sign-up-form h2{
 
+    text-align: center;
+}
 .form-item{
 
     flex-wrap: wrap;
@@ -757,11 +764,12 @@ header li {
 }
 
 .form-item input{
+
     height: 50px;
     width: 100%;
     font-family: 'Noto-sans',sans-serif;
     font-weight: 500;
-    border: 2px solid var(--secondary);
+    border: 2px solid var(--primary);
     border-radius: 4px;
 
 }
@@ -769,12 +777,14 @@ header li {
 
 .form-item.form-button input{
 
-    color: #fff;
+    color: var(--on-primary-container);
     font-size: 1.25rem;
     font-family: 'Noto-sans',sans-serif;
     background:linear-gradient(10deg,var(--primary),var(--primary-container)) ;
 
 }
+
+
 .default-color{
     background: var(--primary);
 }
