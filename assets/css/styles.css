@@ -651,18 +651,18 @@ header li {
     
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 25px;
+    /* justify-content: center;
+    text-align: center; */
+    margin-top: 25px 0px;
     width: 100%;
     color:var(--on-primary-container);
     background: var(--primary-container);
 }
 
-.clever-banner > p{
+.clever-banner > h3{
 
-   margin: 18px 20px;
+    max-width: 1000px;
+
 }
 
 
@@ -1121,17 +1121,10 @@ header li {
     margin-bottom: 0px;
 }
 
-.info-timeline ul li> h1{
-    
-    text-align: start;
-    margin: 0px;
-    font-size: 1.5rem;
-
-}
 
 .info-timeline ul li> p{
     margin: 0px;
-    font-size: 1.2rem;
+ 
     
 
 }
