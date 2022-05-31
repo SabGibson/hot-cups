@@ -1,114 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="happy cups, hot tea, tea history, cold tea, drink, tea blends, culture"/>
-    <script src="https://kit.fontawesome.com/873423072c.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" type="png" href="assets/images/happy-cups-logo.svg"/>
-    <link rel="stylesheet" href="assets/css/styles.css"/>
-    <title>Hotcups|Events</title>
-</head>
-<body>
-    <header class="default-bg">
-        <nav class="nav default-bg flex-container">
-            <div class="logo">
-                <a href="index.html"><img class="logo-img" src="assets/images/happy-cups-logo-3.svg" alt="happ cups logo"/></a>
-            </div>
-            <div class="nav-list-item-other">
-                <label for="toggle-menu">
-                    <div class="toggle-menu">
-                        <span class="toggle-bar"></span>
-                        <span class="toggle-bar"></span>
-                        <span class="toggle-bar"></span>
-                    </div>
-                </label>
-            </div>
-            <input type="checkbox" name="toggle-menu" id="toggle-menu">
-            <ul class="nav-bar">
-                <li class="nav-list-item">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="nav-list-item">
-                    Explore
-                    <ul class="nav-sub-menu">
-                        <li>
-                            <a href="history.html">History</a>
-                        </li>
-                        <li>
-                            <a href="tea-blends.html">Variants & Blends</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-list-item">
-                    Brewing
-                    <ul class="nav-sub-menu">
-                        <li>
-                            <a href="recipes.html">Hot Recipes</a>
-                        </li>
-                        <li>
-                            <a href="culture.html">Cultural Recipes</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-list-item active">
-                    <a href="sign-up.html">Sign-Up</a>
-                </li>
-            </ul>
-        </nav>  
-</header>
-        <section class="first-section-under-header section-flex">
-            <div class="flex-container sign-up">
-                <div class="flex-container col">
-                    <div class="pg-label mk block">
-                        <h2>Sign-up</h2>
-                    </div>
-                    <form id="sign-up-form">
-                        <div class="flex-grid">
-                            <h2>Join our mail list for the hottest information</h2>
-                            <div class="form-item">
-                                <label class="sign-up-label" for="fname" aria-required="true" required>First Name</label>
-                                <input type="text" id="fname"name="firstName" placeholder="Enter your first name.">
-                            </div>
-            
-                            <div class="form-item">
-                                <label class="sign-up-label" for="lname" aria-required="true" required>Last Name</label>
-                                <input type="text" id="lname"name="lastName" placeholder="Enter your last name.">
-                            </div>
-                    
-                            <div class="form-item">   
-                                <label class="sign-up-label" for="tel">Phone Number</label>
-                                <input type="tel" id="tel" name="tel" aria-required="false" placeholder="Enter your phone number">
-                            </div>
-                            <div class="form-item">   
-                                <label class="sign-up-label" for="email">Email</label>
-                                <input type="email" id="email" name="email" aria-required="true" required placeholder="Enter your email address">
-                            </div>
-                        </div>
-                        <div class="form-item form-button">
-                            <input type="submit" role="button">
-                        </div>
-                    </form>
-                </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="keywords" content="happy cups, hot tea, tea history, cold tea, drink, tea blends, culture" />
+		<script src="https://kit.fontawesome.com/873423072c.js" crossorigin="anonymous"></script>
+		<link rel="shortcut icon" type="image/svg" href="assets/images/happy-cups-logo.svg" />
+		<link rel="stylesheet" href="assets/css/styles.css" />
+		<title>Hotcups|Sign-Up</title>
+	</head>
+	<body>
+		<header class="default-bg">
+			<nav class="nav default-bg flex-container">
+				<div class="logo">
+					<a href="index.html"><img class="logo-img" src="assets/images/happy-cups-logo-3.svg" alt="happ cups logo" /></a>
+				</div>
+				<div class="nav-list-item-other">
+					<label for="toggle-menu" class="toggle-menu">
+							<span class="toggle-bar"></span>
+							<span class="toggle-bar"></span>
+							<span class="toggle-bar"></span>
+					</label>
+				</div>
+				<input type="checkbox" name="toggle-menu" id="toggle-menu" />
+				<ul class="nav-bar">
+					<li class="nav-list-item">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="nav-list-item">
+						Explore
+						<ul class="nav-sub-menu">
+							<li>
+								<a href="history.html">History</a>
+							</li>
+							<li>
+								<a href="tea-blends.html">Variants &amp; Blends</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-list-item">
+						Brewing
+						<ul class="nav-sub-menu">
+							<li>
+								<a href="recipes.html">Recipes</a>
+							</li>
+							<li>
+								<a href="culture.html">Cultural Drinks</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-list-item active">
+						<a href="sign-up.html">Sign-Up</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="first-section-under-header section-flex">
+			<div class="flex-container sign-up">
+				<div class="flex-container col">
+					<div class="pg-label mk block">
+						<h2>Sign-up</h2>
+					</div>
+					<form id="sign-up-form">
+						<div class="flex-grid">
+							<h2>Join our mail list for the hottest information</h2>
+							<div class="form-item">
+								<label class="sign-up-label" for="fname" >First Name</label>
+								<input type="text" id="fname" name="firstName" placeholder="Enter your first name." aria-required="true" required/>
+							</div>
 
-            </div>
-        </section>
-        <footer class="footer default-bg">
-            <ul class="footer-ul social-media">
-                <li class="footer-list-item">
-                    <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page(opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-                </li >
-                <li class="footer-list-item">
-                    <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page(opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li class="footer-list-item">
-                    <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page(opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-                </li>
-                <li class="footer-list-item">
-                    <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page(opens in a new tab)"><i class="fa-brands fa-instagram"></i></i></a>
-                </li>
-            </ul>
-        </footer>
-    </body>
-    </html>
+							<div class="form-item">
+								<label class="sign-up-label" for="lname" >Last Name</label>
+								<input type="text" id="lname" name="lastName" placeholder="Enter your last name." aria-required="true" required />
+							</div>
+
+							<div class="form-item">
+								<label class="sign-up-label" for="tel">Phone Number</label>
+								<input type="tel" id="tel" name="tel" aria-required="false" placeholder="Enter your phone number" />
+							</div>
+							<div class="form-item">
+								<label class="sign-up-label" for="email">Email</label>
+								<input type="email" id="email" name="email" aria-required="true" required placeholder="Enter your email address" />
+							</div>
+						</div>
+						<div class="form-item form-button">
+							<input type="submit" />
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer class="footer default-bg">
+			<ul class="footer-ul social-media">
+				<li class="footer-list-item">
+					<a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page(opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+				</li>
+				<li class="footer-list-item">
+					<a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page(opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+				</li>
+				<li class="footer-list-item">
+					<a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page(opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+				</li>
+				<li class="footer-list-item">
+					<a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page(opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>
