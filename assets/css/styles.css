@@ -900,6 +900,7 @@ header li {
     transform: rotateY(180deg);
 }
 
+
 .info-card-banner {
     padding: 8px;
     height: 20%;
@@ -945,7 +946,18 @@ header li {
     border-top-right-radius: 12px;
 }
 
+.recipe-card .content-back *{
 
+    margin-left:20px ;
+    margin-block-start:0em;
+    padding-inline-start: 0em;
+}
+
+.recipe-card .content-back h3:first-of-type{
+
+    margin-top: 20px;
+
+}
 .content-front {
 
     position: absolute;
