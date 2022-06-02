@@ -165,8 +165,11 @@ This issue was that the nav bar was a greater size than the viewport and when fi
   - [Matcha Set](https://www.cleanpng.com/png-japanese-tea-ceremony-matcha-milkshake-japanese-cu-439696/)
   - [Kettle](https://www.cleanpng.com/png-tea-egg-coffee-teapot-menu-kettle-268936/)
 - Variants &amp; Blend
+
   - [EIC](https://www.theeastindiacompany.com/wp-content/uploads/2013/06/Logo.png)
   - [MF Logo](https://commons.wikimedia.org/wiki/File:Logo_seul.jpg)
+  - [TWG Logo](https://cdn.shopify.com/s/files/1/0276/9744/6989/files/0001_7e584cdc-62da-497c-b87e-46ff2b7bc044_3508x.jpg?v=1608801500)
+  - [Whittard Logo](https://eu-assets.simpleview-europe.com/portsmouth2020/imageresizer/?image=%2Fdmsimgs%2FWhittard_1213980555.jpg&action=ProductDetailImage)
   - [Green Tea Image](https://unsplash.com/photos/OHYSVSId8mA)
   - [Oolong Loose Image ](https://unsplash.com/photos/gT_rAfFvCyw)
   - [White Tea Image](https://www.pexels.com/photo/person-holding-sliced-vegetables-on-basket-39347/)
@@ -190,7 +193,7 @@ This issue was that the nav bar was a greater size than the viewport and when fi
   - [Red Tea](https://www.pexels.com/photo/herbal-black-tea-pouring-into-glass-5946807/)
   - [Honey Tea](https://unsplash.com/photos/1S4JCCWq2mg)
   - [Cinnamon Tea](https://www.pexels.com/photo/lemon-tea-served-on-teacup-1717767/)
-  - [Apple Tea](https://www.pexels.com/photo/photo-of-slice-green-apple-and-cinnamon-stick-3338676/)
+  - [Apple Tea](https://www.pexels.com/photo/red-apples-and-cherries-on-wooden-table-6116508/)
   - [Bubble Tea In Hand](https://www.pexels.com/photo/a-person-holding-a-milk-tea-6412830/)
 
 
