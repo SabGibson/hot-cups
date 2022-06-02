@@ -181,6 +181,7 @@ This issue was that the nav bar was a greater size than the viewport and when fi
   - [Tea Ceremony](https://www.pexels.com/photo/person-in-red-and-white-floral-long-sleeve-shirt-holding-white-ceramic-mug-8748542/)
   - [England Card Image](https://www.pexels.com/photo/a-performer-drinking-from-a-tea-cup-6842334/)
   - [Monk With Beads](https://www.pexels.com/photo/man-in-red-robe-standing-near-green-trees-5385901/)
+  - [Cha Character](https://en.m.wikipedia.org/wiki/File:Tea_(Chinese_characters).svg)
 
 - Recipes
   - [Mint Tea](https://www.pexels.com/photo/fresh-green-tea-463445/)
